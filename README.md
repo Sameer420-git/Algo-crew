@@ -229,18 +229,13 @@ ignored by Git.
 
 ## Vercel
 
+- Live website: [algocrew-silk.vercel.app](https://algocrew-silk.vercel.app/)
 - Official Vercel website: [vercel.com](https://vercel.com/)
 - Official Vercel documentation: [vercel.com/docs](https://vercel.com/docs)
 
-This repository currently contains a local Flask application and does not
-include a Vercel deployment URL or Vercel configuration. A public production
-deployment should not be created without adding authentication, secret
-management, durable process handling, and protections around trading actions.
-Once a deployment is created, its URL can be added here as:
-
-```text
-Live deployment: https://<your-project>.vercel.app
-```
+The live website is deployed at the URL above. A public production deployment
+should use authentication, secure secret management, durable process handling,
+and protections around trading actions.
 
 ## License
 
